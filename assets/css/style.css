@@ -280,13 +280,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav {
   position: fixed;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
+  top: 65px;
+  right: 0px;
+  bottom: 20%;
+  left: 0px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: rgba(0, 0, 0, 1);
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -310,16 +310,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #ffb03b;
+  color: #B2406A;
   text-decoration: none;
 }
 
 .mobile-nav .book-a-table a {
-  background: #ffb03b;
+  background: #8C153A;
   color: #fff;
   border-radius: 50px;
-  margin: 0 0 0 20px;
-  padding: 10px 25px;
+  margin-top: 20px;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
@@ -329,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .book-a-table a:hover {
-  background: #ffa012;
+  background: #6D002A;
   color: #fff;
 }
 
@@ -365,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(39, 37, 34, 0.6);
+  background: black;
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -385,13 +384,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/slide/slide-1.jpg) top center;
+  background: url(../img/passione-entrance.png) top center;
   background-size: cover;
   position: relative;
 }
@@ -1410,7 +1410,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/passione-shelf.png") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
