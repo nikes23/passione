@@ -932,6 +932,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
+  text-align: center;
   color: #B2406A;
 }
 
@@ -940,6 +941,7 @@ section {
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
+  text-align: center;
   color: #6c665c;
 }
 
@@ -948,6 +950,7 @@ section {
   font-size: 15px;
   margin: 0;
   padding: 0;
+  text-align: justify;
 }
 
 .why-us .box:hover {
