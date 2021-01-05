@@ -1845,7 +1845,7 @@ section {
   -o-animation: animation1 2s linear infinite;
   animation: animation1 2s linear infinite; }
 .footer-area .footer-shape.shape-6 {
-  background-color: #B60D81;
+  background-color: #b60d81;
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -1881,16 +1881,20 @@ section {
   max-width: 520px; }
 
 .footer-about {
-  max-width: 520px; }
+  max-width: 100%; }
 .footer-about .text {
-  margin-top: 30px; }
+  margin-top: 30px;
+  color: #fff;
+  margin-bottom: 50px;
+}
 .footer-about .social {
   margin-top: 30px; }
 .footer-about .social li {
   display: inline-block;
-  margin-right: 25px; }
+  margin-right: 10px;
+margin-left: 10px;}
 .footer-about .social li a {
-  font-size: 20px;
+  font-size: 25px;
   color: #8C153A;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -1901,18 +1905,21 @@ section {
   color: #6D002A; }
 
 .footer-title .title {
+  color: #B2406A;
   font-size: 20px;
   font-weight: 500; }
 
 .footer-link .link {
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
 .footer-link .link li {
   margin-top: 10px;
   list-style-type: none;
 }
 
 .footer-link .link li a {
-  color: #747E88;
+  color: #ffffff;
   font-size: 18px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -1920,29 +1927,33 @@ section {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
 .footer-link .link li a:hover {
-  color: #0898E7; }
+  color: #B2406A; }
 
 .footer-link-wrapper {
   width: 50%; }
 
+.footer-contact .contact-list {
+  margin-top: 30px;
+}
+
 .footer-contact .contact-list li {
-  margin-top: 20px;
+  padding-top: 0px;
   list-style-type: none;
 }
 .footer-contact .contact-list li .contact-info .info-info {
   width: 30px; }
 .footer-contact .contact-list li .contact-info .info-content .text {
-  color: #747E88;
+  color: #fff;
   font-size: 16px; }
 .footer-contact .contact-list li .contact-info .info-content .text a {
-  color: #747E88;
+  color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
 .footer-contact .contact-list li .contact-info .info-content .text a:hover {
-  color: #0898E7; }
+  color: #B2406A; }
 
 .footer-copyright .copyright {
   border-top: 2px solid #747E88;
@@ -1963,7 +1974,7 @@ section {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
 .footer-copyright .copyright .copyright-privacy a:hover {
-  color: #0898E7; }
+  color: #B2406A; }
 
 
 .rounded
