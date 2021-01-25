@@ -1,0 +1,21 @@
+{
+  "short_name": "Passione",
+  "name": "Passione - Mediterrane Köstlichkeiten",
+  "description": "Landing Page from Passione",
+  "icons": [
+    {
+      "src": "assets/img/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/img/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#8C153A",
+  "display": "standalone",
+  "theme_color": "#8C153A",
+}
