@@ -1880,6 +1880,7 @@ section {
 
 .footer-area {
   position: relative;
+  padding-bottom: 20px;
   z-index: 5; }
 .footer-area .footer-shape {
   position: absolute; }
@@ -2189,7 +2190,7 @@ margin-left: 10px;}
   background-color: #8C153A;
   display: flex;
   overflow-x: auto;
-  z-index: 5;
+  z-index: 6;
 }
 
 .nav__link {
