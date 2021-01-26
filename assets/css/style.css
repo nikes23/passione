@@ -2317,6 +2317,7 @@ picture {
   z-index: 500;
 }
 .nav_social li{
+  display: block;
   height: 50px;
   position:relative;
 }
