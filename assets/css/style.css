@@ -2311,10 +2311,13 @@ picture {
 .nav_social{
   position: fixed;
   width: 40px;
-  margin-top: 150px;
+  top:50%;
   transition: all 0.3s linear;
   box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
   z-index: 500;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .nav_social li{
   display: block;
