@@ -2284,6 +2284,9 @@ picture {
 }
 
 .book-a-voucher a {
+  display: inline;
+  align-items: center;
+  justify-content: center;
   background: #8C153A;
   color: #fff;
   border-radius: 50px;
@@ -2298,3 +2301,4 @@ picture {
   background: #6D002A;
   color: #fff;
 }
+
