@@ -2334,22 +2334,26 @@ picture {
   border-bottom: 1px solid rgba(0,0,0,.4);
   transition: all .3s linear;
 }
+
 .nav_social li:nth-child(1) a{
-  background: #4267B2;
+  background: #25D366;
 }
 .nav_social li:nth-child(2) a{
-  background: #1DA1F2;
+  background: #4267B2;
 }
 .nav_social li:nth-child(3) a{
-  background: #E1306C;
+  background: #1DA1F2;
 }
 .nav_social li:nth-child(4) a{
-  background: #2867B2;
+  background: #E1306C;
 }
 .nav_social li:nth-child(5) a{
-  background: #333;
+  background: #2867B2;
 }
 .nav_social li:nth-child(6) a{
+  background: #333;
+}
+.nav_social li:nth-child(7) a{
   background: #ff0000;
 }
 .nav_social li a i{
