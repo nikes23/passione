@@ -2258,6 +2258,12 @@ margin-left: 10px;}
   transform: translate(-50%, -50%);
 }
 
+.middle h2 {
+  color: #B2406A;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 hr {
   margin: auto;
   width: 70%;
