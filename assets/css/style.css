@@ -1555,7 +1555,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/passione-shelf.png") no-repeat;
+  background: url("../img/second-shelf.png") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -2226,4 +2226,57 @@ margin-left: 10px;}
 .nav__icon {
   font-size: 28px;
   color: #ffffff;
+}
+
+.comingsoon {
+  height: 80vh;
+  background: url(../img/passione-shelf.png) top center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Georgia", serif;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.comingsoon::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(12, 11, 10, 0.7);}
+
+.middle {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+hr {
+  margin: auto;
+  width: 70%;
+  border: 2px solid #ffffff;
+}
+
+.gutschein {
+  margin-top: -50px;
+  margin-bottom: -50px;
+
+  display: flex;
+  justify-content: center;
+  /*width: 100%;
+  height: auto;
+  background: url(../img/Gutschein_Passione.png) top center no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Georgia", serif;
+  font-size: 25px;
+  margin-top: 50px;*/
 }
